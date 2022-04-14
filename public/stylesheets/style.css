@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+:root{
+    --main-color: #23282b;
+    --secondary-color: #ff0084;
+    --terciary-color: #808080;
+    --quaternary-color: #d3d3d3;
+}
+
+*{
+    font-family: 'Exo 2', sans-serif;
+    background-color: var(--main-color);
+}
+
+.logo{
+    font-family: 'Nova Mono', monospace;
+    color: var(--secondary-color);
+}
+input{
+    width: 70%;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    background-color: var(--terciary-color);
+    margin: auto;
+}
+input:hover{
+    border-color: var(--secondary-color);
+}
+input:focus{
+    border-color: var(--secondary-color);
+}
+label{
+    color: var(--quaternary-color);
+    margin-bottom: 1rem;
+}
+p, h3{
+    color: var(--quaternary-color);
+    text-decoration: none;
+}
+button{
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+    border: none;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 2rem;
+    font-weight:bolder;
+}
+button:hover{
+    cursor: pointer;
+}
